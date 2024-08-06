@@ -1,0 +1,144 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #83aed9;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero */
+  
+  .hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 5rem 1rem;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-content button {
+    background-color: #ff6f61;
+    border: none;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Products */
+  
+  .products {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .product p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .product button {
+    background-color: #ff6f61;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* About and Contact */
+  
+  .about, .contact {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .about p, .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact form input, .contact form textarea {
+    width: 100%;
+    padding: 0.5rem;
